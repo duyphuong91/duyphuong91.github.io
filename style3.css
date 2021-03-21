@@ -106,7 +106,7 @@ h2 {
     height: auto;
   }
   #banner1-text{
-    position: static;
+    position: static;/*không chắc làm thế này có đúng ko nữa*/
   }
 }
 
