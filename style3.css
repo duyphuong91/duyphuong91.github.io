@@ -1,0 +1,115 @@
+body {
+ background-color: #DCDCDC;
+ padding-left: 10px;
+}
+
+* {
+box-sizing: border-box;
+}
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: white;
+  z-index: 3;
+}
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul {
+  margin: 0px;
+  padding:5px 50px 0px 50px;
+}
+
+#right {
+  float: right;
+}
+
+#banner1 {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png') ;
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+
+#banner1-text {
+  position: absolute;
+  padding-top: 100px;
+  padding-left: 50px;
+  font-family: Times New Roman;
+  color: white;
+}
+
+h2 {
+  padding-left: 50px;
+  font-family: Times New Roman;
+}
+.p2 {
+  padding-left: 50px;
+  font-family: Times New Roman;
+}
+
+.col-lg-4  img {
+  margin-bottom: 10px;
+}
+.col-sm-4 h1 {
+ padding-left:50px;
+}
+.col-sm-4 p {
+ padding-left:50px;
+}
+.col-sm-4 a{
+ padding-left:50px;
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px){
+  #nav-bar {
+    background-color: #85929E;
+  }
+  #nav-bar a {
+    color: white;
+  }
+  #banner1 {
+    background-image: none;
+    height: auto;
+  }
+  #banner1-text{
+    position: static;
+  }
+  body{
+    background-color: white;
+  }
+  #banner1-text {
+    color: black;
+  }
+
+}
+@media only screen and (max-width: 768px){
+  #nav-bar {
+    background-color: #85929E;
+  }
+  #nav-bar a {
+    color: white;
+  }
+  #banner1 {
+    background-image: none;
+    height: auto;
+  }
+  #banner1-text{
+    position: static;
+  }
+}
+
+
+ 
+  
