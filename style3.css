@@ -1,7 +1,13 @@
 #title {
   background-color:white;
   height: 100px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 #title h1 {
   color: green;
+}
+#anh{
+  background-image: url(https://besthqwallpapers.com/Uploads/20-7-2019/100195/ha-long-bay-summer-travel-beautiful-nature-paradise-vietnam.jpg);
+  width:500px;
 }
