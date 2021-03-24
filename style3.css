@@ -3,14 +3,19 @@
   height: 100px;
   padding-left: 20px;
   padding-top: 20px;
+  position: relative;
 }
-#title h1 {
-  color: green;
-}
+
 #anh{
   background-image: url(https://besthqwallpapers.com/Uploads/20-7-2019/100195/ha-long-bay-summer-travel-beautiful-nature-paradise-vietnam.jpg);
   background-size: cover;
   height: 700px;
+  position: relative;
+}
+#anh h1 {
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Numans');
