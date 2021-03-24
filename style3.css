@@ -3,7 +3,7 @@
   height: 100px;
   padding-left: 20px;
   padding-top: 20px;
-  position: relative;
+  position: fixed;
 }
 
 #anh{
