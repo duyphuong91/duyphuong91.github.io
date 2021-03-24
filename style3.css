@@ -9,5 +9,6 @@
 }
 #anh{
   background-image: url(https://besthqwallpapers.com/Uploads/20-7-2019/100195/ha-long-bay-summer-travel-beautiful-nature-paradise-vietnam.jpg);
-  width:500px;
+  max-width:100%;
+  max-height: 100%;
 }
