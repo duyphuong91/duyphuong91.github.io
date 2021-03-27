@@ -6,12 +6,13 @@
   background-color: green;
 }
 
-#anh{
+#anh {
   background-image: url(https://besthqwallpapers.com/Uploads/20-7-2019/100195/ha-long-bay-summer-travel-beautiful-nature-paradise-vietnam.jpg);
   background-size: cover;
   height: 700px;
   position: relative;
   z-index: 0;
+  max-width: 100%;
 }
 #anh h1 {
   position: absolute;
@@ -106,5 +107,13 @@ color: white;
 
 .links a{
 margin-left: 4px;
+}
+
+.RegistraitionForm{
+  width: 600px;
+  height: 600px;
+  border-style: solid;
+  margin: 0 auto;
+
 }
 

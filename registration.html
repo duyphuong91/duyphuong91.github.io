@@ -2,7 +2,8 @@
 <html>
     <head>
         <title>DaiVietTravel</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">       
         <link rel="stylesheet" type="text/css" href="style3.css" />
     </head>
     <header>
@@ -14,7 +15,7 @@
             
         </div>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container-fluid">
           <!--<a class="navbar-brand" href="#">Home</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +36,7 @@
                     <a class="nav-link" href="#">Liên hệ với chúng tôi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login.html">Đăng nhập</a>
+                    <a class="nav-link" href="Signin.html">Đăng nhập</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="registration.html">Đăng ký</a>
@@ -46,52 +47,55 @@
     </nav>
         <div id="anh">
             <h1>Welcome to Hanoi</h1>
-            <div class="container">
-                <div class="d-flex justify-content-center h-100">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3>Sign In</h3>
-                            <div class="d-flex justify-content-end social_icon">
-                                <span><i class="fab fa-facebook-square"></i></span>
-                                <span><i class="fab fa-google-plus-square"></i></span>
-                                <span><i class="fab fa-twitter-square"></i></span>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <form>
-                                <div class="input-group form-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="username">
-                                    
-                                </div>
-                                <div class="input-group form-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text"><i class="fas fa-key"></i></span>
-                                    </div>
-                                    <input type="password" class="form-control" placeholder="password">
-                                </div>
-                                <div class="row align-items-center remember">
-                                    <input type="checkbox">Remember Me
-                                </div>
-                                <div class="form-group">
-                                    <input type="submit" value="Login" class="btn float-right login_btn">
-                                </div>
-                            </form>
-                        </div>
-                    <div class="card-footer">
-                        <div class="d-flex justify-content-center links">
-                            Don't have an account?<a href="#">Sign Up</a>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <a href="#">Forgot your password?</a>
+            <form class="RegistraitionForm" action='' method="POST">
+                    <fieldset>
+                    <div id="legend">
+                        <legend class="">Register</legend>
+                    </div>
+                    <div class="control-group">
+                        <!-- Username -->
+                        <label class="control-label"  for="username">Username</label>
+                        <div class="controls">
+                        <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+                        <p class="help-block">Username can contain any letters or numbers, without spaces</p>
                         </div>
                     </div>
-                </div>
-            </div>
-      </div>
-
+                
+                    <div class="control-group">
+                        <!-- E-mail -->
+                        <label class="control-label" for="email">E-mail</label>
+                        <div class="controls">
+                        <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+                        <p class="help-block">Please provide your E-mail</p>
+                        </div>
+                    </div>
+                
+                    <div class="control-group">
+                        <!-- Password-->
+                        <label class="control-label" for="password">Password</label>
+                        <div class="controls">
+                        <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+                        <p class="help-block">Password should be at least 4 characters</p>
+                        </div>
+                    </div>
+                
+                    <div class="control-group">
+                        <!-- Password -->
+                        <label class="control-label"  for="password_confirm">Password (Confirm)</label>
+                        <div class="controls">
+                        <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
+                        <p class="help-block">Please confirm password</p>
+                        </div>
+                    </div>
+                
+                    <div class="control-group">
+                        <!-- Button -->
+                        <div class="controls">
+                        <button class="btn btn-success">Register</button>
+                        </div>
+                    </div>
+                    </fieldset>
+            </form>
     </div>
     <body>
 
