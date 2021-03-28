@@ -1,13 +1,17 @@
 #title {
   background-color:white;
   height: 100px;
+  position: relative;
 }
 .navbar{
   background-color: green;
 }
+li a {
+  color:white;
+}
 
-.anh {
-  background-image: url(https://besthqwallpapers.com/Uploads/20-7-2019/100195/ha-long-bay-summer-travel-beautiful-nature-paradise-vietnam.jpg);
+.banner1 {
+  background-image: url(https://media.gettyimages.com/photos/turtle-tower-in-sword-lake-in-spring-in-hanoi-vietnam-picture-id524738288?k=6&m=524738288&s=612x612&w=0&h=N5yFhFYESL5fO4L1ZQJeIsdMPAfeXDmweErUYpa5rsU=);
   background-size: cover;
   background-attachment: fixed;
   height: 700px;
