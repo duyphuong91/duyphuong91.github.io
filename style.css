@@ -19,6 +19,12 @@ li a {
   z-index: 0;
   max-width: 100%;
 }
+.banner1 h1 {
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 20px;
+  z-index: 4;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
@@ -34,11 +40,14 @@ max-width: 400px;
 .registrationform {
   background-color: white;
   border-radius: 20px;
+  max-width: 550px;
 }
 
 legend{
   font-weight: bold;
   font-size: 2rem;
 }
+
+
 
 
