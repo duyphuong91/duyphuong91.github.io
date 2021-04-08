@@ -31,13 +31,12 @@ li a {
   z-index: 0;
   max-width: 100%;
 }
-.banner1 h1 {
+/* .banner1 h1 {
   position: absolute;
   padding-left: 20px;
   padding-top: 20px;
   z-index: 1;
-}
-
+} */
 
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
