@@ -38,6 +38,12 @@ li a {
   z-index: 1;
 } */
 
+.banner1-title{
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 20px;
+
+}
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 .signinform {
