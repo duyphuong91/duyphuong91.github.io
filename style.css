@@ -40,8 +40,10 @@ li a {
 
 .banner1-title{
   position: absolute;
-  margin-top: -250px;
-  margin-left: 20px;
+  /* margin-top: -250px;
+  margin-left: 20px; */
+  top: 100px;
+  left: 100px;
 
 }
 @import url('https://fonts.googleapis.com/css?family=Numans');
