@@ -47,6 +47,11 @@ li a {
 }
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
+.main-content-title{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
 .signinform {
   z-index: 2;
   border-radius:20px;
