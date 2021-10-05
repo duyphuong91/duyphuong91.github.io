@@ -4,8 +4,8 @@
   position: relative;
   padding-left: 30px;
 }
-.navbar{
-  background-color: green;
+.Navbar{
+  background-color:green;
 }
 li a {
   color:white;
@@ -30,6 +30,9 @@ li a {
   position: relative;
   z-index: 0;
   max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* .banner1 h1 {
   position: absolute;
@@ -69,10 +72,11 @@ li a {
 
 .signinform {
   z-index: 2;
-  border-radius:20px;
+  border-radius: 5px;
   background-color: white;
-  height: 400px;
-  max-width: 400px;
+  /* height: 300px; */
+  max-width: 500px;
+  padding: 35px 30px;
 }
 
 .registrationform {
