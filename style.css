@@ -7,6 +7,10 @@
 .Navbar{
   background-color:green;
 }
+.menu-text{
+  text-transform: uppercase;
+  font-weight: 600;
+}
 li a {
   color:white;
 }
@@ -81,8 +85,12 @@ li a {
 
 .registrationform {
   background-color: white;
-  border-radius: 20px;
+  border-radius: 5px;
   max-width: 550px;
+  padding: 35px 30px;
+}
+.regbtn{
+  padding-top:20px;
 }
 
 legend{
@@ -91,6 +99,9 @@ legend{
 }
 .contactformblock{
   background-color: white;
+  border-radius: 5px;
+  max-width: 800px;
+  padding: 35px 30px;
   z-index: 6;
 }
 .foodnametitle{
