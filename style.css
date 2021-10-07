@@ -62,7 +62,7 @@ li a {
 /* maincontent style */
 
 main{
-  background-color: #EAE6E6;
+  background-color: #F3F7ED;
   padding-bottom: 50px;
 }
 .main-content-title{
@@ -134,6 +134,12 @@ legend{
 
 .footer-link{
   color: black;
+}
+.SNS{
+  list-style: none;;
+}
+.SNS li{
+  display: inline-block;
 }
 
 
