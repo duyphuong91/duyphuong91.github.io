@@ -5,9 +5,12 @@
         <meta name="description" content="Du lịch Hà Nội">
         <meta name="keywords" content="HTML, CSS, JavaScript">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">   -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">  
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
          crossorigin="anonymous">
@@ -56,7 +59,7 @@
       <main>
         <section>
           <div class="main-content-title">
-            <h1 style="font-family: Ephesis;">Những địa điểm nổi tiếng </h1>
+            <h1>Những địa điểm nổi tiếng </h1>
             <p1>Hà nội Thủ đô Việt Nam với lịch sử 4000 năm văn hiến </p1>
           </div>
           <div class="row">
@@ -122,8 +125,64 @@
           </div>
 
         </section>
-        <footer>
-
+      </main>        
+        <footer class="Footer">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 col-12">
+              <div class="footer-content">
+                <h1>Nhận thư từ chúng tôi</h1>
+                <h6>Chúng tôi sẽ gửi những thông tin thú vị về du lịch Hà Nội cho bạn hàng tháng</h6>
+                <form action="#">  
+                  <p>
+                    <label for="contactmail">
+                      <input id="contactmail" type="email" placeholder="Nhập email của bạn" required>
+                    </label>
+                  </p>
+                  <p>
+                    <button name="Signup">Nhận thư </button>
+                  </p>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-12">
+              <div class="footer-content">
+                <h1>Links</h1>
+                <ul>
+                  <li>
+                    <a  class="footer-link" href="index.html">Trang chủ</a>
+                  </li>
+                  <li>
+                    <a class="footer-link" href="Diadiemdulich.html">Địa điểm du lịch</a>
+                  </li>
+                  <li>
+                    <a class="footer-link" href="Amthuc.html">Khám phá ẩm thực</a>
+                  </li>
+                  <li>
+                    <a class="footer-link" href="Signin.html">Đăng nhập</a>
+                  </li>
+                  <li>
+                    <a class="footer-link" href="registration.html">Đăng ký</a>
+                  </li>
+                  <li>
+                    <a class="footer-link" href="contact.html">Liên hệ</a>
+                  </li>                 
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-12">
+              <div class="cuisine-img">
+                <img src="Images/bunthang2.jpg" 
+                alt="bunthang"
+                class="img-fluid"
+                >
+              </div>
+            </div>  
+          </div>
+          <hr> 
+          <div class="text-center p-3">
+            © 2021 Copyright:
+            <a href="index.html">PhuongTravel.com</a>
+          </div>
         </footer>
         <script></script>
   </body>      

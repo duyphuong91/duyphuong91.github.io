@@ -1,5 +1,5 @@
 body{
-  font-family: Lobster;
+  font-family: 'Pacifico', cursive;
 }
 #title {
   background-color:white;
@@ -7,6 +7,7 @@ body{
   position: relative;
   padding-left: 30px;
 }
+/* navbar style */
 .Navbar{
   background-color:green;
 }
@@ -17,7 +18,8 @@ body{
 li a {
   color:white;
 }
-
+/* navbar style */
+/* banner style */
 .banner1 {
   background-image: url(https://media.gettyimages.com/photos/turtle-tower-in-sword-lake-in-spring-in-hanoi-vietnam-picture-id524738288?k=6&m=524738288&s=612x612&w=0&h=N5yFhFYESL5fO4L1ZQJeIsdMPAfeXDmweErUYpa5rsU=);
   background-size: cover;
@@ -55,10 +57,16 @@ li a {
   top: 50px;
   left: 50px;
 }
-@import url('https://fonts.googleapis.com/css?family=Numans');
+/* banner style */
+/* @import url('https://fonts.googleapis.com/css?family=Numans'); */
+/* maincontent style */
 
+main{
+  background-color: #EAE6E6;
+  padding-bottom: 50px;
+}
 .main-content-title{
-  padding-left: 10px;
+  padding-left: 20px;
   padding-bottom: 20px;
 }
 
@@ -66,6 +74,7 @@ li a {
   display: block;
   margin-left: auto;
   margin-right: auto; 
+  padding-bottom: 50px;
 }
 
 .cuisine img{
@@ -81,7 +90,6 @@ li a {
   z-index: 2;
   border-radius: 5px;
   background-color: white;
-  /* height: 300px; */
   max-width: 500px;
   padding: 35px 30px;
 }
@@ -110,7 +118,23 @@ legend{
 .foodnametitle{
   font-family: Lobster;
 }
+/*footerstyle*/
+.Footer{
+  padding-top:10px;
 
+}
+.footer-content{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.contact-title{
+  padding-top: 30px;
+}
+
+.footer-link{
+  color: black;
+}
 
 
 
