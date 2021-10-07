@@ -58,9 +58,8 @@ li a {
   left: 50px;
 }
 /* banner style */
-/* @import url('https://fonts.googleapis.com/css?family=Numans'); */
-/* maincontent style */
 
+/* maincontent style */
 main{
   background-color: #F3F7ED;
   padding-bottom: 50px;
@@ -71,9 +70,11 @@ main{
 }
 .travel{
   margin:auto;
+  padding-left: 20px;
 }
 .cuisine{
   margin:auto;
+  padding-left: 20px;
 }
 .travel img{
   display: block;
@@ -153,6 +154,13 @@ legend{
 .SNS li{
   display: inline-block;
 }
+/*footerstyle*/
+
+/* contactform */
+.requiredasterisk{
+  color:red;
+}
+/* contactform */
 
 
 
