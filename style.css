@@ -66,24 +66,34 @@ main{
   padding-bottom: 50px;
 }
 .main-content-title{
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0px 20px 20px ;
+  text-align: center;
 }
-
+.travel{
+  margin:auto;
+}
+.cuisine{
+  margin:auto;
+}
 .travel img{
   display: block;
   margin-left: auto;
   margin-right: auto; 
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+  max-width: 600px;
 }
 
 .cuisine img{
   display: block;
   margin-left: auto;
   margin-right: auto; 
+  padding-bottom: 30px;
 }
 .cuisine h1{
   text-align: center;
+}
+.descriptiontext{
+  line-height: 300%;
 }
 
 .signinform {
@@ -131,7 +141,9 @@ legend{
 .contact-title{
   padding-top: 30px;
 }
-
+.footer-reflink{
+  list-style: none;
+}
 .footer-link{
   color: black;
 }
