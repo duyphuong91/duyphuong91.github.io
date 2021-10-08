@@ -40,7 +40,6 @@ li a {
   background-image: url("images/amthuchanoi.jpg");
   background-size: cover;
   height: 700px;
-  position: relative;
   max-width: 100%;
   display: flex;
   justify-content: center;
